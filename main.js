@@ -31,3 +31,5 @@ let mediaArray = function(array) {
 
 console.log(media(4, 6, 8))
 console.log(soma(2,5));
+
+[0, 5, 6, 8, 5]
