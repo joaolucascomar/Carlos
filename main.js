@@ -6,12 +6,12 @@ function areaQuadrado(lado) {
     return lado * lado
 }
 
-function area(figura, lado, altura) {
+function area(figura, lado, base = 0,  altura = 0) {
     switch (figura) {
         case 'quadrado':
             return lado * lado
         case 'triangulo':
-            return (lado * altura) / 2
+            return (base * altura) / 2
         default:
             console.log("inválido")
     }
