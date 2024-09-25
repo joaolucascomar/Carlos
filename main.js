@@ -23,6 +23,11 @@ function area(figura) {
 let media = function(num1, num2, num3) {
     return (num1 + num2 + num3) / 3
 }
+num1 = parseInt(prompt("Insira o primeiro número"))
+num2 = parseInt(prompt("Insira o segundo número"))
+num3 = parseInt(prompt("Insira o terceiro número"))
+console.log(media(num1, num2, num3))
+
 
 let mediaArray = function(array) {
     let total = 0
@@ -34,5 +39,3 @@ let mediaArray = function(array) {
 
 console.log(media(4, 6, 8))
 console.log(soma(2,5));
-
-[0, 5, 6, 8, 5]
