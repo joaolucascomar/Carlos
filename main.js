@@ -37,6 +37,3 @@ let mediaArray = function(array) {
     }
     return total / array.length
 }
-
-console.log(media(4, 6, 8))
-console.log(soma(2,5));
