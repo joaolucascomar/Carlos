@@ -6,11 +6,14 @@ function areaQuadrado(lado) {
     return lado * lado
 }
 
-function area(figura, lado = 0, base = 0,  altura = 0) {
+function area(figura) {
     switch (figura) {
         case 'quadrado':
+            let lado = parseInt(prompt("Insira o lado do quadrado"))
             return lado * lado
         case 'triangulo':
+            let base = parseInt(prompt("Insira a base do triângulo"))
+            let altura = parseInt(prompt("Insira a altura do triângulo"))
             return (base * altura) / 2
         default:
             console.log("figura inválida")
