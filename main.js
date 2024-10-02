@@ -38,3 +38,11 @@
 // document.write(media(num1, num2, num3))
 
 let estados = ['PR', 'RS', 'SC', 'SP', 'RJ', 'MG', 'ES', 'BA', 'SE', 'CE', 'AL', 'PN', 'PB', 'MA', 'PN', 'PI', 'GO', 'MT', 'MS', 'DF', 'AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO'];
+
+let i = 0;
+
+while(i < 5) {
+    console.log(i);
+
+    i++
+}
