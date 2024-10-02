@@ -51,7 +51,7 @@
 //     console.log(estados[i])
 // }
 
-let idade = 16;
+let idade = parseInt(prompt('Qual sua idade?'));
 
 if(idade >= 18) {
     console.log('Pode dirigir')
